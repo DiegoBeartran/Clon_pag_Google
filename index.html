@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
+            <ul class="navBar">
+                <li class="navBar__li">
                     <a 
                         href="https://mail.google.com/mail/u/0/#inbox" 
                         target="_blank"
+                        class="navText"
                     >   Gmail </a>
                 </li>
-                <li>
+                <li class="navBar__li">
                     <a 
                         href="https://www.google.com.co/imghp?hl=es-419&ogbl"
                         target="_blank"
+                        class="navText"
                     >   Imágenes</a>
                 </li>
                 <li>
-                    <button>Iniciar sesión</button>
+                    <button id="navButton">Iniciar sesión</button>
                 </li>
             </ul>
         </nav>
@@ -31,7 +34,7 @@
     <main>
         <section>
             <figure>
-                <img src="./img/google-2015.svg" alt="Logo de Google"/>
+                <img class="logo" src="./img/google-2015.svg" alt="Logo de Google"/>
             </figure>
         </section>
         <section>
@@ -41,6 +44,7 @@
                         <img src="./img/loupe.svg" alt="Lupa de Búsqueda">
                     </figure>
                     <input type="text" id="searchBar"/>
+                    <img src="./img/mic-logo.png" alt="">
             </form>
         </section> 
         <section>
