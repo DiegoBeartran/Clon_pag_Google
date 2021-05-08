@@ -37,9 +37,7 @@ li {
     text-decoration: underline;
 }
 
-#navButton {
-    background-color: #1073E8;
-    color: white;
+.buttons {
     border: none;
     border-radius: 0.5rem;
     padding: 1rem 2rem;
@@ -47,10 +45,52 @@ li {
     font-size: 1.5rem;
 }
 
+.b1 {
+    background-color: #1073E8;
+    color: white;
+}
+
 #navButton:hover {
     background-color: #257DE9;
 }
 
+.logoFig {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
-    width: 500px;
+    width: 300px;
+}
+
+.bar {
+    margin: 3rem auto;
+    display: flex;
+    width: 65rem;
+    min-width: 32rem;
+    border: solid #dfe1e5c4 0.1rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchLogo {
+    width: 1.4rem;
+    margin: 0 1rem;
+}
+
+.searchBar {
+    width: 55rem;
+    border: none;
+}
+
+.mainButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.b2 {
+    background-color: #F8F9FA;
 }
