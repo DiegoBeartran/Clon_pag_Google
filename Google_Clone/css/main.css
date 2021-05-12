@@ -52,3 +52,41 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 1rem;
 }
+
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-logo img {
+    width: 272px;
+    height: 92px;
+}
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container {
+    width: 52.5rem;
+    border-radius: 100px;
+    border: #dfe1e5 solid 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
